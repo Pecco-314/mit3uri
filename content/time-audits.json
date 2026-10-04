@@ -1,0 +1,1736 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-04",
+  "roomId": 1967216004,
+  "starts": {
+    "MIT3URI-0060": {
+      "date": "2025-04-08",
+      "anchorBvid": "BV17Hd5YnEji",
+      "startedAt": "2025-04-08T19:30:56+08:00",
+      "precision": "second",
+      "timeEvidence": "verified_replay_clock",
+      "evidence": {
+        "url": "https://www.bilibili.com/video/BV17Hd5YnEji/",
+        "page": 1,
+        "cid": 29343878233,
+        "videoOriginClock": "19:30:56",
+        "frames": [
+          {
+            "offsetSeconds": 660,
+            "clock": "19:41:56"
+          },
+          {
+            "offsetSeconds": 780,
+            "clock": "19:43:56"
+          }
+        ],
+        "basis": "官方回放第一 P 的画面时钟减去播放位置；至少两个独立画面得出相同时间轴原点。本地保留计算所得秒值，网页显示分钟，不据此生成直播时长。"
+      }
+    },
+    "MIT3URI-0066": {
+      "date": "2025-04-13",
+      "anchorBvid": "BV1ardrYHEfM",
+      "startedAt": "2025-04-13T14:01:35+08:00",
+      "precision": "second",
+      "timeEvidence": "verified_replay_clock",
+      "evidence": {
+        "url": "https://www.bilibili.com/video/BV1ardrYHEfM/",
+        "page": 1,
+        "cid": 29399518630,
+        "videoOriginClock": "14:01:35",
+        "frames": [
+          {
+            "offsetSeconds": 300,
+            "clock": "14:06:35"
+          },
+          {
+            "offsetSeconds": 360,
+            "clock": "14:07:35"
+          }
+        ],
+        "basis": "官方回放第一 P 的画面时钟减去播放位置；至少两个独立画面得出相同时间轴原点。本地保留计算所得秒值，网页显示分钟，不据此生成直播时长。"
+      }
+    },
+    "MIT3URI-0077": {
+      "date": "2025-04-20",
+      "anchorBvid": "BV1MM5dzxEGd",
+      "startedAt": "2025-04-20T20:02:30+08:00",
+      "precision": "second",
+      "timeEvidence": "verified_replay_clock",
+      "evidence": {
+        "url": "https://www.bilibili.com/video/BV1MM5dzxEGd/",
+        "page": 1,
+        "cid": 29558967170,
+        "videoOriginClock": "20:02:30",
+        "frames": [
+          {
+            "offsetSeconds": 660,
+            "clock": "20:13:30"
+          },
+          {
+            "offsetSeconds": 780,
+            "clock": "20:15:30"
+          }
+        ],
+        "basis": "官方回放第一 P 的画面时钟减去播放位置；至少两个独立画面得出相同时间轴原点。本地保留计算所得秒值，网页显示分钟，不据此生成直播时长。"
+      }
+    },
+    "MIT3URI-0081": {
+      "date": "2025-04-22",
+      "anchorBvid": "BV18mLrzxET2",
+      "startedAt": "2025-04-22T21:32:11+08:00",
+      "precision": "second",
+      "timeEvidence": "verified_replay_clock",
+      "evidence": {
+        "url": "https://www.bilibili.com/video/BV18mLrzxET2/",
+        "page": 1,
+        "cid": 29648946097,
+        "videoOriginClock": "21:32:11",
+        "frames": [
+          {
+            "offsetSeconds": 660,
+            "clock": "21:43:11"
+          },
+          {
+            "offsetSeconds": 780,
+            "clock": "21:45:11"
+          }
+        ],
+        "basis": "官方回放第一 P 的画面时钟减去播放位置；至少两个独立画面得出相同时间轴原点。本地保留计算所得秒值，网页显示分钟，不据此生成直播时长。"
+      }
+    },
+    "MIT3URI-0083": {
+      "date": "2025-04-24",
+      "anchorBvid": "BV1hyLrztEXj",
+      "startedAt": "2025-04-24T21:00:29+08:00",
+      "precision": "second",
+      "timeEvidence": "verified_replay_clock",
+      "evidence": {
+        "url": "https://www.bilibili.com/video/BV1hyLrztEXj/",
+        "page": 1,
+        "cid": 29648946102,
+        "videoOriginClock": "21:00:29",
+        "frames": [
+          {
+            "offsetSeconds": 660,
+            "clock": "21:11:29"
+          },
+          {
+            "offsetSeconds": 780,
+            "clock": "21:13:29"
+          }
+        ],
+        "basis": "官方回放第一 P 的画面时钟减去播放位置；至少两个独立画面得出相同时间轴原点。本地保留计算所得秒值，网页显示分钟，不据此生成直播时长。"
+      }
+    },
+    "MIT3URI-0129": {
+      "date": "2025-05-25",
+      "anchorBvid": "BV1Pw73zYEc7",
+      "startedAt": "2025-05-25T19:58:24+08:00",
+      "precision": "second",
+      "timeEvidence": "verified_replay_clock",
+      "evidence": {
+        "url": "https://www.bilibili.com/video/BV1Pw73zYEc7/",
+        "page": 1,
+        "cid": 30263476439,
+        "videoOriginClock": "19:58:24",
+        "frames": [
+          {
+            "offsetSeconds": 660,
+            "clock": "20:09:24"
+          },
+          {
+            "offsetSeconds": 780,
+            "clock": "20:11:24"
+          }
+        ],
+        "basis": "官方回放第一 P 的画面时钟减去播放位置；至少两个独立画面得出相同时间轴原点。本地保留计算所得秒值，网页显示分钟，不据此生成直播时长。"
+      }
+    },
+    "MIT3URI-0135": {
+      "date": "2025-05-29",
+      "anchorBvid": "BV1xz71zNEUy",
+      "startedAt": "2025-05-29T17:57:21+08:00",
+      "precision": "second",
+      "timeEvidence": "verified_replay_clock",
+      "evidence": {
+        "url": "https://www.bilibili.com/video/BV1xz71zNEUy/",
+        "page": 1,
+        "cid": 30276191176,
+        "videoOriginClock": "17:57:21",
+        "frames": [
+          {
+            "offsetSeconds": 660,
+            "clock": "18:08:21"
+          },
+          {
+            "offsetSeconds": 780,
+            "clock": "18:10:21"
+          }
+        ],
+        "basis": "官方回放第一 P 的画面时钟减去播放位置；至少两个独立画面得出相同时间轴原点。本地保留计算所得秒值，网页显示分钟，不据此生成直播时长。"
+      }
+    },
+    "MIT3URI-0136": {
+      "date": "2025-05-30",
+      "anchorBvid": "BV1xz71zNEHR",
+      "startedAt": "2025-05-30T10:59:07+08:00",
+      "precision": "second",
+      "timeEvidence": "verified_replay_clock",
+      "evidence": {
+        "url": "https://www.bilibili.com/video/BV1xz71zNEHR/",
+        "page": 1,
+        "cid": 30276255812,
+        "videoOriginClock": "10:59:07",
+        "frames": [
+          {
+            "offsetSeconds": 660,
+            "clock": "11:10:07"
+          },
+          {
+            "offsetSeconds": 780,
+            "clock": "11:12:07"
+          }
+        ],
+        "basis": "官方回放第一 P 的画面时钟减去播放位置；至少两个独立画面得出相同时间轴原点。本地保留计算所得秒值，网页显示分钟，不据此生成直播时长。"
+      }
+    },
+    "MIT3URI-0153": {
+      "date": "2025-06-10",
+      "anchorBvid": "BV1uaMgzDEDu",
+      "startedAt": "2025-06-10T19:59:11+08:00",
+      "precision": "second",
+      "timeEvidence": "verified_replay_clock",
+      "evidence": {
+        "url": "https://www.bilibili.com/video/BV1uaMgzDEDu/",
+        "page": 1,
+        "cid": 30471293831,
+        "videoOriginClock": "19:59:11",
+        "frames": [
+          {
+            "offsetSeconds": 660,
+            "clock": "20:10:11"
+          },
+          {
+            "offsetSeconds": 780,
+            "clock": "20:12:11"
+          }
+        ],
+        "basis": "官方回放第一 P 的画面时钟减去播放位置；至少两个独立画面得出相同时间轴原点。本地保留计算所得秒值，网页显示分钟，不据此生成直播时长。"
+      }
+    },
+    "MIT3URI-0205": {
+      "date": "2025-07-20",
+      "anchorBvid": "BV18wg7z3Ejb",
+      "startedAt": "2025-07-20T21:50:17+08:00",
+      "precision": "second",
+      "timeEvidence": "verified_replay_clock",
+      "evidence": {
+        "url": "https://www.bilibili.com/video/BV18wg7z3Ejb/",
+        "page": 1,
+        "cid": 31195597364,
+        "videoOriginClock": "21:50:17",
+        "frames": [
+          {
+            "offsetSeconds": 660,
+            "clock": "22:01:17"
+          },
+          {
+            "offsetSeconds": 780,
+            "clock": "22:03:17"
+          }
+        ],
+        "basis": "官方回放第一 P 的画面时钟减去播放位置；至少两个独立画面得出相同时间轴原点。本地保留计算所得秒值，网页显示分钟，不据此生成直播时长。"
+      }
+    },
+    "MIT3URI-0208": {
+      "date": "2025-07-23",
+      "anchorBvid": "BV17G8YzEEps",
+      "startedAt": "2025-07-23T22:47:31+08:00",
+      "precision": "second",
+      "timeEvidence": "verified_replay_clock",
+      "evidence": {
+        "url": "https://www.bilibili.com/video/BV17G8YzEEps/",
+        "page": 1,
+        "cid": 31304713621,
+        "videoOriginClock": "22:47:31",
+        "frames": [
+          {
+            "offsetSeconds": 660,
+            "clock": "22:58:31"
+          },
+          {
+            "offsetSeconds": 780,
+            "clock": "23:00:31"
+          }
+        ],
+        "basis": "官方回放第一 P 的画面时钟减去播放位置；至少两个独立画面得出相同时间轴原点。本地保留计算所得秒值，网页显示分钟，不据此生成直播时长。"
+      }
+    },
+    "MIT3URI-0210": {
+      "date": "2025-07-24",
+      "anchorBvid": "BV17G8YzEEpQ",
+      "startedAt": "2025-07-24T20:59:20+08:00",
+      "precision": "second",
+      "timeEvidence": "verified_replay_clock",
+      "evidence": {
+        "url": "https://www.bilibili.com/video/BV17G8YzEEpQ/",
+        "page": 1,
+        "cid": 31304713622,
+        "videoOriginClock": "20:59:20",
+        "frames": [
+          {
+            "offsetSeconds": 660,
+            "clock": "21:10:20"
+          },
+          {
+            "offsetSeconds": 780,
+            "clock": "21:12:20"
+          }
+        ],
+        "basis": "官方回放第一 P 的画面时钟减去播放位置；至少两个独立画面得出相同时间轴原点。本地保留计算所得秒值，网页显示分钟，不据此生成直播时长。"
+      }
+    },
+    "MIT3URI-0407": {
+      "date": "2026-01-16",
+      "anchorBvid": "BV1jZrXBUEzf",
+      "startedAt": "2026-01-16T18:40:40+08:00",
+      "endedAt": "2026-01-17T03:08:12+08:00",
+      "precision": "second",
+      "timeEvidence": "live_history",
+      "evidence": {
+        "historyUrl": "https://vr.qianqiuzy.cn/gift/live_sessions?room_id=1967216004&month=2026-01",
+        "history": {
+          "start_time": "2026-01-16 18:40:40",
+          "end_time": "2026-01-17 03:08:12",
+          "title": "来看新人噜！"
+        },
+        "recordingBvid": "BV1fGrrBSEwK",
+        "firstPart": "录制-1967216004-20260116-184049-635-来看新人噜！",
+        "officialFrames": [
+          {
+            "offsetSeconds": 660,
+            "clock": "18:51:45"
+          },
+          {
+            "offsetSeconds": 780,
+            "clock": "18:53:45"
+          }
+        ],
+        "basis": "开播标题与官方投稿结束时标题不同；民间第一 P 的标题、时间和后续分 P 共同对应独立历史场次。官方画面时钟原点比历史开播晚5秒，第一 P 文件时间紧随其后。"
+      }
+    },
+    "MIT3URI-0408": {
+      "date": "2026-01-17",
+      "anchorBvid": "BV1jZrXBUErP",
+      "startedAt": "2026-01-17T17:02:23+08:00",
+      "endedAt": "2026-01-18T03:37:55+08:00",
+      "precision": "second",
+      "timeEvidence": "live_history",
+      "evidence": {
+        "historyUrl": "https://vr.qianqiuzy.cn/gift/live_sessions?room_id=1967216004&month=2026-01",
+        "history": {
+          "start_time": "2026-01-17 17:02:23",
+          "end_time": "2026-01-18 03:37:55",
+          "title": "嘟嘟登场之后就嘟嘟上分！"
+        },
+        "recordingBvid": "BV1acrSBcEeD",
+        "firstPart": "录制-1967216004-20260117-170249-250-嘟嘟登场之后就嘟嘟上分！",
+        "officialFrames": [
+          {
+            "offsetSeconds": 660,
+            "clock": "17:13:28"
+          },
+          {
+            "offsetSeconds": 780,
+            "clock": "17:15:28"
+          }
+        ],
+        "basis": "开播标题与官方投稿结束时标题不同；民间第一 P 的标题、时间和后续分 P 共同对应独立历史场次。官方画面时钟原点比历史开播晚5秒，第一 P 文件时间紧随其后。"
+      }
+    },
+    "MIT3URI-0410": {
+      "date": "2026-01-19",
+      "anchorBvid": "BV1bPkgBUEvF",
+      "startedAt": "2026-01-19T18:01:18+08:00",
+      "endedAt": "2026-01-20T00:48:56+08:00",
+      "precision": "second",
+      "timeEvidence": "live_history",
+      "evidence": {
+        "historyUrl": "https://vr.qianqiuzy.cn/gift/live_sessions?room_id=1967216004&month=2026-01",
+        "history": {
+          "start_time": "2026-01-19 18:01:18",
+          "end_time": "2026-01-20 00:48:56",
+          "title": "通勤歌台！！！"
+        },
+        "recordingBvid": "BV1UpkuB2EBC",
+        "firstPart": "录制-1967216004-20260119-180146-169-通勤歌台！！！",
+        "officialFrames": [
+          {
+            "offsetSeconds": 660,
+            "clock": "18:16:24"
+          },
+          {
+            "offsetSeconds": 780,
+            "clock": "18:18:24"
+          }
+        ],
+        "basis": "开播标题与官方投稿结束时标题不同；民间第一 P 的标题、时间和后续分 P 共同对应独立历史场次。官方回放画面原点为18:05:24，民间第一 P 300 秒处为18:06:42，因此官方开头有缺失，采用独立开播记录。"
+      }
+    },
+    "MIT3URI-0014": {
+      "date": "2025-03-09",
+      "anchorBvid": "BV1M4R3Y4EkE",
+      "startedAt": "2025-03-09T19:58:41+08:00",
+      "precision": "second",
+      "timeEvidence": "aligned_recording_part",
+      "evidence": {
+        "recordingBvid": "BV1yJRvYEEVs",
+        "uploaderId": 3546841966709189,
+        "url": "https://www.bilibili.com/video/BV1yJRvYEEVs/?p=1",
+        "page": 1,
+        "cid": 28783936371,
+        "partTitle": "【三理Mit3uri】70%的杂谈溶于30%的歌液体中 2025年03月09日 19点59分05秒",
+        "partCount": 1,
+        "recordingStartedAt": "2025-03-09T19:59:05+08:00",
+        "audioMatches": [
+          {
+            "communityOffset": 30,
+            "officialOffset": 53.8,
+            "delta": 23.8,
+            "score": 0.6744
+          },
+          {
+            "communityOffset": 120,
+            "officialOffset": 143.8,
+            "delta": 23.8,
+            "score": 0.7619
+          },
+          {
+            "communityOffset": 210,
+            "officialOffset": 233.8,
+            "delta": 23.8,
+            "score": 0.9647
+          }
+        ],
+        "alignedVideoOrigin": "2025-03-09T19:58:41.200000+08:00",
+        "basis": "分 P 标题的明确录制时间作为可信时间依据，包含单 P 投稿；扣除与参考录播第一 P 的音频对齐偏移。本地保留计算所得秒值，网页显示分钟。"
+      }
+    },
+    "MIT3URI-0039": {
+      "date": "2025-03-25",
+      "anchorBvid": "BV1FwovYUEG9",
+      "startedAt": "2025-03-25T20:58:05+08:00",
+      "precision": "second",
+      "timeEvidence": "aligned_recording_part",
+      "evidence": {
+        "recordingBvid": "BV1PKo8Y6EVd",
+        "uploaderId": 3546841966709189,
+        "url": "https://www.bilibili.com/video/BV1PKo8Y6EVd/?p=1",
+        "page": 1,
+        "cid": 29068560901,
+        "partTitle": "【三理Mit3uri】40%的歌融于60%的杂溶剂中 2025年03月25日 20点58分07秒",
+        "partCount": 2,
+        "recordingStartedAt": "2025-03-25T20:58:07+08:00",
+        "audioMatches": [
+          {
+            "communityOffset": 30,
+            "officialOffset": 31.98,
+            "delta": 1.98,
+            "score": 0.8388
+          },
+          {
+            "communityOffset": 120,
+            "officialOffset": 121.98,
+            "delta": 1.98,
+            "score": 0.7911
+          },
+          {
+            "communityOffset": 210,
+            "officialOffset": 211.98,
+            "delta": 1.98,
+            "score": 0.9771
+          }
+        ],
+        "alignedVideoOrigin": "2025-03-25T20:58:05.020000+08:00",
+        "basis": "分 P 标题的明确录制时间作为可信时间依据，包含单 P 投稿；扣除与参考录播第一 P 的音频对齐偏移。本地保留计算所得秒值，网页显示分钟。"
+      }
+    },
+    "MIT3URI-0057": {
+      "date": "2025-04-07",
+      "anchorBvid": "BV1QPduY4EK9",
+      "startedAt": "2025-04-07T20:58:13+08:00",
+      "precision": "second",
+      "timeEvidence": "aligned_recording_part",
+      "evidence": {
+        "recordingBvid": "BV1pEdjYcEHa",
+        "uploaderId": 3546841966709189,
+        "url": "https://www.bilibili.com/video/BV1pEdjYcEHa/?p=1",
+        "page": 1,
+        "cid": 29291187801,
+        "partTitle": "【三理Mit3uri】神秘暴力女人 2025年04月07日 21点00分34秒",
+        "partCount": 1,
+        "recordingStartedAt": "2025-04-07T21:00:34+08:00",
+        "audioMatches": [
+          {
+            "communityOffset": 30,
+            "officialOffset": 170.48,
+            "delta": 140.48,
+            "score": 0.8185
+          },
+          {
+            "communityOffset": 120,
+            "officialOffset": 260.48,
+            "delta": 140.48,
+            "score": 0.9973
+          },
+          {
+            "communityOffset": 210,
+            "officialOffset": 350.48,
+            "delta": 140.48,
+            "score": 0.4619
+          }
+        ],
+        "alignedVideoOrigin": "2025-04-07T20:58:13.520000+08:00",
+        "basis": "分 P 标题的明确录制时间作为可信时间依据，包含单 P 投稿；扣除与参考录播第一 P 的音频对齐偏移。本地保留计算所得秒值，网页显示分钟。"
+      }
+    },
+    "MIT3URI-0059": {
+      "date": "2025-04-08",
+      "anchorBvid": "BV17Hd5YnE6F",
+      "startedAt": "2025-04-08T12:03:51+08:00",
+      "precision": "second",
+      "timeEvidence": "aligned_recording_part",
+      "evidence": {
+        "recordingBvid": "BV19sdHYhECZ",
+        "uploaderId": 3546841966709189,
+        "url": "https://www.bilibili.com/video/BV19sdHYhECZ/?p=1",
+        "page": 1,
+        "cid": 29300033629,
+        "partTitle": "【三理Mit3uri】僵毁之温暖小家庭 2025年04月08日 12点05分19秒",
+        "partCount": 1,
+        "recordingStartedAt": "2025-04-08T12:05:19+08:00",
+        "audioMatches": [
+          {
+            "communityOffset": 30,
+            "officialOffset": 117.5,
+            "delta": 87.5,
+            "score": 0.9138
+          },
+          {
+            "communityOffset": 120,
+            "officialOffset": 207.5,
+            "delta": 87.5,
+            "score": 0.9827
+          },
+          {
+            "communityOffset": 210,
+            "officialOffset": 297.5,
+            "delta": 87.5,
+            "score": 0.9825
+          }
+        ],
+        "alignedVideoOrigin": "2025-04-08T12:03:51.500000+08:00",
+        "basis": "分 P 标题的明确录制时间作为可信时间依据，包含单 P 投稿；扣除与参考录播第一 P 的音频对齐偏移。本地保留计算所得秒值，网页显示分钟。"
+      }
+    },
+    "MIT3URI-0089": {
+      "date": "2025-04-28",
+      "anchorBvid": "BV1vDLSzxEo3",
+      "startedAt": "2025-04-28T11:05:26+08:00",
+      "precision": "second",
+      "timeEvidence": "aligned_recording_part",
+      "evidence": {
+        "recordingBvid": "BV16qL1zUEEX",
+        "uploaderId": 3546841966709189,
+        "url": "https://www.bilibili.com/video/BV16qL1zUEEX/?p=1",
+        "page": 1,
+        "cid": 29653599153,
+        "partTitle": "【三理Mit3uri】困困电台 2025年04月28日 11点09分17秒",
+        "partCount": 1,
+        "recordingStartedAt": "2025-04-28T11:09:17+08:00",
+        "audioMatches": [
+          {
+            "communityOffset": 30,
+            "officialOffset": 261.0,
+            "delta": 231.0,
+            "score": 0.9801
+          },
+          {
+            "communityOffset": 120,
+            "officialOffset": 351.0,
+            "delta": 231.0,
+            "score": 0.9571
+          },
+          {
+            "communityOffset": 210,
+            "officialOffset": 441.0,
+            "delta": 231.0,
+            "score": 0.9149
+          }
+        ],
+        "alignedVideoOrigin": "2025-04-28T11:05:26+08:00",
+        "basis": "分 P 标题的明确录制时间作为可信时间依据，包含单 P 投稿；扣除与参考录播第一 P 的音频对齐偏移。本地保留计算所得秒值，网页显示分钟。"
+      }
+    },
+    "MIT3URI-0093": {
+      "date": "2025-05-02",
+      "anchorBvid": "BV1VrV6z9E3m",
+      "startedAt": "2025-05-02T00:10:09+08:00",
+      "precision": "second",
+      "timeEvidence": "aligned_recording_part",
+      "evidence": {
+        "recordingBvid": "BV1tnGBziEc5",
+        "uploaderId": 3546841966709189,
+        "url": "https://www.bilibili.com/video/BV1tnGBziEc5/?p=1",
+        "page": 1,
+        "cid": 29742663153,
+        "partTitle": "【三理Mit3uri】胡言乱语时间 2025年05月02日 00点14分13秒",
+        "partCount": 1,
+        "recordingStartedAt": "2025-05-02T00:14:13+08:00",
+        "audioMatches": [
+          {
+            "communityOffset": 30,
+            "officialOffset": 273.4,
+            "delta": 243.4,
+            "score": 0.9254
+          },
+          {
+            "communityOffset": 120,
+            "officialOffset": 363.4,
+            "delta": 243.4,
+            "score": 0.979
+          },
+          {
+            "communityOffset": 210,
+            "officialOffset": 453.4,
+            "delta": 243.4,
+            "score": 0.9884
+          }
+        ],
+        "alignedVideoOrigin": "2025-05-02T00:10:09.600000+08:00",
+        "basis": "分 P 标题的明确录制时间作为可信时间依据，包含单 P 投稿；扣除与参考录播第一 P 的音频对齐偏移。本地保留计算所得秒值，网页显示分钟。"
+      }
+    },
+    "MIT3URI-0119": {
+      "date": "2025-05-20",
+      "anchorBvid": "BV1apJWzWESv",
+      "startedAt": "2025-05-20T13:58:15+08:00",
+      "precision": "second",
+      "timeEvidence": "aligned_recording_part",
+      "evidence": {
+        "recordingBvid": "BV1CSJtzHEmZ",
+        "uploaderId": 3546841966709189,
+        "url": "https://www.bilibili.com/video/BV1CSJtzHEmZ/?p=1",
+        "page": 1,
+        "cid": 30053632060,
+        "partTitle": "【三理Mit3uri】赖床时间 2025年05月20日 13点59分27秒",
+        "partCount": 1,
+        "recordingStartedAt": "2025-05-20T13:59:27+08:00",
+        "audioMatches": [
+          {
+            "communityOffset": 30,
+            "officialOffset": 102.0,
+            "delta": 72.0,
+            "score": 0.967
+          },
+          {
+            "communityOffset": 120,
+            "officialOffset": 192.0,
+            "delta": 72.0,
+            "score": 0.9756
+          },
+          {
+            "communityOffset": 210,
+            "officialOffset": 282.0,
+            "delta": 72.0,
+            "score": 0.9977
+          }
+        ],
+        "alignedVideoOrigin": "2025-05-20T13:58:15+08:00",
+        "basis": "分 P 标题的明确录制时间作为可信时间依据，包含单 P 投稿；扣除与参考录播第一 P 的音频对齐偏移。本地保留计算所得秒值，网页显示分钟。"
+      }
+    },
+    "MIT3URI-0223": {
+      "date": "2025-08-06",
+      "anchorBvid": "BV1T3tKz7EE8",
+      "startedAt": "2025-08-06T22:06:10+08:00",
+      "precision": "second",
+      "timeEvidence": "aligned_recording_part",
+      "evidence": {
+        "recordingBvid": "BV1GftNzxEjd",
+        "uploaderId": 3493284628401014,
+        "url": "https://www.bilibili.com/video/BV1GftNzxEjd/?p=1",
+        "page": 1,
+        "cid": 31531271790,
+        "partTitle": "录制-1967216004-20250806-220606-551-【煮煮】试试新东西",
+        "partCount": 2,
+        "recordingStartedAt": "2025-08-06T22:06:06.551000+08:00",
+        "referenceBvid": "BV1T3tKz7EE8",
+        "referencePage": 1,
+        "referenceCid": 31531468047,
+        "referenceUrl": "https://www.bilibili.com/video/BV1T3tKz7EE8/?p=1",
+        "referencePartTitle": "P1-【煮煮】试试新东西 08月06日22点06分",
+        "audioMatches": [
+          {
+            "communityOffset": 120,
+            "referenceOffset": 115.84,
+            "delta": -4.16,
+            "score": 0.9824
+          },
+          {
+            "communityOffset": 300,
+            "referenceOffset": 295.84,
+            "delta": -4.16,
+            "score": 0.9559
+          }
+        ],
+        "alignedVideoOrigin": "2025-08-06T22:06:10.711000+08:00",
+        "basis": "分 P 文件名提供含秒录制时间，至少两段音频指向一致偏移；扣除偏移得到参考录播起点，与原目录分钟吻合。本地保留计算所得秒值，网页显示分钟。"
+      }
+    },
+    "MIT3URI-0224": {
+      "date": "2025-08-07",
+      "anchorBvid": "BV1futrzvEdm",
+      "startedAt": "2025-08-07T21:00:16+08:00",
+      "precision": "second",
+      "timeEvidence": "aligned_recording_part",
+      "evidence": {
+        "recordingBvid": "BV1QptrzdECz",
+        "uploaderId": 3493284628401014,
+        "url": "https://www.bilibili.com/video/BV1QptrzdECz/?p=1",
+        "page": 1,
+        "cid": 31552046353,
+        "partTitle": "录制-1967216004-20250807-210259-051-我是美女主播！",
+        "partCount": 2,
+        "recordingStartedAt": "2025-08-07T21:02:59.051000+08:00",
+        "referenceBvid": "BV1futrzvEdm",
+        "referencePage": 1,
+        "referenceCid": 31552702478,
+        "referenceUrl": "https://www.bilibili.com/video/BV1futrzvEdm/?p=1",
+        "referencePartTitle": "P1-我是美女主播！ 08月07日21点00分",
+        "audioMatches": [
+          {
+            "communityOffset": 120,
+            "referenceOffset": 282.5,
+            "delta": 162.5,
+            "score": 0.9944
+          },
+          {
+            "communityOffset": 210,
+            "referenceOffset": 372.5,
+            "delta": 162.5,
+            "score": 0.9898
+          },
+          {
+            "communityOffset": 300,
+            "referenceOffset": 462.5,
+            "delta": 162.5,
+            "score": 0.9311
+          }
+        ],
+        "alignedVideoOrigin": "2025-08-07T21:00:16.551000+08:00",
+        "basis": "分 P 文件名提供含秒录制时间，至少两段音频指向一致偏移；扣除偏移得到参考录播起点，与原目录分钟吻合。本地保留计算所得秒值，网页显示分钟。"
+      }
+    },
+    "MIT3URI-0225": {
+      "date": "2025-08-08",
+      "anchorBvid": "BV1sutszhE21",
+      "startedAt": "2025-08-08T21:30:47+08:00",
+      "precision": "second",
+      "timeEvidence": "aligned_recording_part",
+      "evidence": {
+        "recordingBvid": "BV1iztHzVEyN",
+        "uploaderId": 3493284628401014,
+        "url": "https://www.bilibili.com/video/BV1iztHzVEyN/?p=1",
+        "page": 1,
+        "cid": 31573804334,
+        "partTitle": "录制-1967216004-20250808-213309-117-我是美女主播！",
+        "partCount": 2,
+        "recordingStartedAt": "2025-08-08T21:33:09.117000+08:00",
+        "referenceBvid": "BV1sutszhE21",
+        "referencePage": 1,
+        "referenceCid": 31574328175,
+        "referenceUrl": "https://www.bilibili.com/video/BV1sutszhE21/?p=1",
+        "referencePartTitle": "P1-我是美女主播！ 08月08日21点30分",
+        "audioMatches": [
+          {
+            "communityOffset": 120,
+            "referenceOffset": 261.7,
+            "delta": 141.7,
+            "score": 0.9789
+          },
+          {
+            "communityOffset": 210,
+            "referenceOffset": 351.7,
+            "delta": 141.7,
+            "score": 0.9733
+          },
+          {
+            "communityOffset": 300,
+            "referenceOffset": 441.7,
+            "delta": 141.7,
+            "score": 0.9637
+          }
+        ],
+        "alignedVideoOrigin": "2025-08-08T21:30:47.417000+08:00",
+        "basis": "分 P 文件名提供含秒录制时间，至少两段音频指向一致偏移；扣除偏移得到参考录播起点，与原目录分钟吻合。本地保留计算所得秒值，网页显示分钟。"
+      }
+    },
+    "MIT3URI-0226": {
+      "date": "2025-08-09",
+      "anchorBvid": "BV1natYzmEkW",
+      "startedAt": "2025-08-09T19:58:47+08:00",
+      "precision": "second",
+      "timeEvidence": "aligned_recording_part",
+      "evidence": {
+        "recordingBvid": "BV1uSthztE77",
+        "uploaderId": 3493284628401014,
+        "url": "https://www.bilibili.com/video/BV1uSthztE77/?p=1",
+        "page": 1,
+        "cid": 31590451796,
+        "partTitle": "录制-1967216004-20250809-195946-130-第一次一起过生日啦！！！",
+        "partCount": 3,
+        "recordingStartedAt": "2025-08-09T19:59:46.130000+08:00",
+        "referenceBvid": "BV1natYzmEkW",
+        "referencePage": 1,
+        "referenceCid": 31590451179,
+        "referenceUrl": "https://www.bilibili.com/video/BV1natYzmEkW/?p=1",
+        "referencePartTitle": "P1-第一次一起过生日啦！！！ 08月09日19点58分",
+        "audioMatches": [
+          {
+            "communityOffset": 210,
+            "referenceOffset": 268.34,
+            "delta": 58.34,
+            "score": 0.9423
+          },
+          {
+            "communityOffset": 300,
+            "referenceOffset": 358.34,
+            "delta": 58.34,
+            "score": 0.9933
+          }
+        ],
+        "alignedVideoOrigin": "2025-08-09T19:58:47.790000+08:00",
+        "basis": "分 P 文件名提供含秒录制时间，至少两段音频指向一致偏移；扣除偏移得到参考录播起点，与原目录分钟吻合。本地保留计算所得秒值，网页显示分钟。"
+      }
+    },
+    "MIT3URI-0227": {
+      "date": "2025-08-10",
+      "anchorBvid": "BV11CbKzEEnw",
+      "startedAt": "2025-08-10T18:28:12+08:00",
+      "precision": "second",
+      "timeEvidence": "aligned_recording_part",
+      "evidence": {
+        "recordingBvid": "BV1kmbKz1Eg6",
+        "uploaderId": 3493284628401014,
+        "url": "https://www.bilibili.com/video/BV1kmbKz1Eg6/?p=1",
+        "page": 1,
+        "cid": 31608540846,
+        "partTitle": "录制-1967216004-20250810-182952-365-美女主播（长大一岁版）",
+        "partCount": 2,
+        "recordingStartedAt": "2025-08-10T18:29:52.365000+08:00",
+        "referenceBvid": "BV11CbKzEEnw",
+        "referencePage": 1,
+        "referenceCid": 31608799425,
+        "referenceUrl": "https://www.bilibili.com/video/BV11CbKzEEnw/?p=1",
+        "referencePartTitle": "P1-美女主播（长大一岁版） 08月10日18点28分",
+        "audioMatches": [
+          {
+            "communityOffset": 120,
+            "referenceOffset": 220.0,
+            "delta": 100.0,
+            "score": 0.4446
+          },
+          {
+            "communityOffset": 210,
+            "referenceOffset": 310.0,
+            "delta": 100.0,
+            "score": 0.9768
+          },
+          {
+            "communityOffset": 300,
+            "referenceOffset": 400.0,
+            "delta": 100.0,
+            "score": 0.812
+          }
+        ],
+        "alignedVideoOrigin": "2025-08-10T18:28:12.365000+08:00",
+        "basis": "分 P 文件名提供含秒录制时间，至少两段音频指向一致偏移；扣除偏移得到参考录播起点，与原目录分钟吻合。本地保留计算所得秒值，网页显示分钟。"
+      }
+    },
+    "MIT3URI-0229": {
+      "date": "2025-08-12",
+      "anchorBvid": "BV1kBbFztECK",
+      "startedAt": "2025-08-12T21:42:45+08:00",
+      "precision": "second",
+      "timeEvidence": "aligned_recording_part",
+      "evidence": {
+        "recordingBvid": "BV1QGtZzqEhB",
+        "uploaderId": 3493284628401014,
+        "url": "https://www.bilibili.com/video/BV1QGtZzqEhB/?p=1",
+        "page": 1,
+        "cid": 31653102312,
+        "partTitle": "录制-1967216004-20250812-214507-571-美女主播开只！",
+        "partCount": 2,
+        "recordingStartedAt": "2025-08-12T21:45:07.571000+08:00",
+        "referenceBvid": "BV1kBbFztECK",
+        "referencePage": 1,
+        "referenceCid": 31654153102,
+        "referenceUrl": "https://www.bilibili.com/video/BV1kBbFztECK/?p=1",
+        "referencePartTitle": "P1-美女主播开只！ 08月12日21点42分",
+        "audioMatches": [
+          {
+            "communityOffset": 120,
+            "referenceOffset": 261.62,
+            "delta": 141.62,
+            "score": 0.9418
+          },
+          {
+            "communityOffset": 210,
+            "referenceOffset": 351.62,
+            "delta": 141.62,
+            "score": 0.5828
+          },
+          {
+            "communityOffset": 300,
+            "referenceOffset": 441.62,
+            "delta": 141.62,
+            "score": 0.4706
+          }
+        ],
+        "alignedVideoOrigin": "2025-08-12T21:42:45.951000+08:00",
+        "basis": "分 P 文件名提供含秒录制时间，至少两段音频指向一致偏移；扣除偏移得到参考录播起点，与原目录分钟吻合。本地保留计算所得秒值，网页显示分钟。"
+      }
+    },
+    "MIT3URI-0233": {
+      "date": "2025-08-17",
+      "anchorBvid": "BV1Q3Ynz3ETX",
+      "startedAt": "2025-08-17T20:31:08+08:00",
+      "precision": "second",
+      "timeEvidence": "aligned_recording_part",
+      "evidence": {
+        "recordingBvid": "BV1g5Y1zjE6G",
+        "uploaderId": 3493284628401014,
+        "url": "https://www.bilibili.com/video/BV1g5Y1zjE6G/?p=1",
+        "page": 1,
+        "cid": 31762351766,
+        "partTitle": "录制-1967216004-20250817-203338-802-美女主播来歌杂",
+        "partCount": 3,
+        "recordingStartedAt": "2025-08-17T20:33:38.802000+08:00",
+        "referenceBvid": "BV1Q3Ynz3ETX",
+        "referencePage": 1,
+        "referenceCid": 31762745538,
+        "referenceUrl": "https://www.bilibili.com/video/BV1Q3Ynz3ETX/?p=1",
+        "referencePartTitle": "P1-美女主播来歌杂-08月17日20点31分",
+        "audioMatches": [
+          {
+            "communityOffset": 120,
+            "referenceOffset": 270.0,
+            "delta": 150.0,
+            "score": 0.6668
+          },
+          {
+            "communityOffset": 210,
+            "referenceOffset": 360.0,
+            "delta": 150.0,
+            "score": 0.9857
+          },
+          {
+            "communityOffset": 300,
+            "referenceOffset": 450.0,
+            "delta": 150.0,
+            "score": 0.8107
+          }
+        ],
+        "alignedVideoOrigin": "2025-08-17T20:31:08.802000+08:00",
+        "basis": "分 P 文件名提供含秒录制时间，至少两段音频指向一致偏移；扣除偏移得到参考录播起点，与原目录分钟吻合。本地保留计算所得秒值，网页显示分钟。"
+      }
+    },
+    "MIT3URI-0234": {
+      "date": "2025-08-18",
+      "anchorBvid": "BV1xoYtz9EaK",
+      "startedAt": "2025-08-18T21:30:50+08:00",
+      "precision": "second",
+      "timeEvidence": "aligned_recording_part",
+      "evidence": {
+        "recordingBvid": "BV1rCYbzHEqL",
+        "uploaderId": 3493284628401014,
+        "url": "https://www.bilibili.com/video/BV1rCYbzHEqL/?p=1",
+        "page": 1,
+        "cid": 31786336464,
+        "partTitle": "录制-1967216004-20250818-213107-628-美女主播打只狼！",
+        "partCount": 2,
+        "recordingStartedAt": "2025-08-18T21:31:07.628000+08:00",
+        "referenceBvid": "BV1xoYtz9EaK",
+        "referencePage": 1,
+        "referenceCid": 31787584868,
+        "referenceUrl": "https://www.bilibili.com/video/BV1xoYtz9EaK/?p=1",
+        "referencePartTitle": "P1-美女主播打只狼！-08月18日21点30分",
+        "audioMatches": [
+          {
+            "communityOffset": 120,
+            "referenceOffset": 136.66,
+            "delta": 16.66,
+            "score": 0.999
+          },
+          {
+            "communityOffset": 210,
+            "referenceOffset": 226.66,
+            "delta": 16.66,
+            "score": 0.2945
+          },
+          {
+            "communityOffset": 300,
+            "referenceOffset": 316.66,
+            "delta": 16.66,
+            "score": 0.9862
+          }
+        ],
+        "alignedVideoOrigin": "2025-08-18T21:30:50.968000+08:00",
+        "basis": "分 P 文件名提供含秒录制时间，至少两段音频指向一致偏移；扣除偏移得到参考录播起点，与原目录分钟吻合。本地保留计算所得秒值，网页显示分钟。"
+      }
+    },
+    "MIT3URI-0235": {
+      "date": "2025-08-19",
+      "anchorBvid": "BV1VUeKzCEaa",
+      "startedAt": "2025-08-19T21:10:24+08:00",
+      "precision": "second",
+      "timeEvidence": "aligned_recording_part",
+      "evidence": {
+        "recordingBvid": "BV1GyePzBEb6",
+        "uploaderId": 3493284628401014,
+        "url": "https://www.bilibili.com/video/BV1GyePzBEb6/?p=1",
+        "page": 1,
+        "cid": 31809539512,
+        "partTitle": "录制-1967216004-20250819-211250-178-4个美女主播一起打虫子！",
+        "partCount": 3,
+        "recordingStartedAt": "2025-08-19T21:12:50.178000+08:00",
+        "referenceBvid": "BV1VUeKzCEaa",
+        "referencePage": 1,
+        "referenceCid": 31811569461,
+        "referenceUrl": "https://www.bilibili.com/video/BV1VUeKzCEaa/?p=1",
+        "referencePartTitle": "P1-4个美女主播一起打虫子！-08月19日21点10分",
+        "audioMatches": [
+          {
+            "communityOffset": 120,
+            "referenceOffset": 265.78,
+            "delta": 145.78,
+            "score": 0.8779
+          },
+          {
+            "communityOffset": 210,
+            "referenceOffset": 355.78,
+            "delta": 145.78,
+            "score": 0.8314
+          },
+          {
+            "communityOffset": 300,
+            "referenceOffset": 445.78,
+            "delta": 145.78,
+            "score": 0.899
+          }
+        ],
+        "alignedVideoOrigin": "2025-08-19T21:10:24.398000+08:00",
+        "basis": "分 P 文件名提供含秒录制时间，至少两段音频指向一致偏移；扣除偏移得到参考录播起点，与原目录分钟吻合。本地保留计算所得秒值，网页显示分钟。"
+      }
+    },
+    "MIT3URI-0239": {
+      "date": "2025-08-24",
+      "anchorBvid": "BV1JnvKzdEBG",
+      "startedAt": "2025-08-24T20:01:04+08:00",
+      "precision": "second",
+      "timeEvidence": "aligned_recording_part",
+      "evidence": {
+        "recordingBvid": "BV13jeHzDEyh",
+        "uploaderId": 3493284628401014,
+        "url": "https://www.bilibili.com/video/BV13jeHzDEyh/?p=1",
+        "page": 1,
+        "cid": 31914919031,
+        "partTitle": "录制-1967216004-20250824-200137-823-美女主播陪你过密码的周一！",
+        "partCount": 3,
+        "recordingStartedAt": "2025-08-24T20:01:37.823000+08:00",
+        "referenceBvid": "BV1JnvKzdEBG",
+        "referencePage": 1,
+        "referenceCid": 31963875740,
+        "referenceUrl": "https://www.bilibili.com/video/BV1JnvKzdEBG/?p=1",
+        "referencePartTitle": "0-美女主播陪你过周末！",
+        "audioMatches": [
+          {
+            "communityOffset": 90,
+            "referenceOffset": 123.34,
+            "delta": 33.34,
+            "score": 0.4931
+          },
+          {
+            "communityOffset": 270,
+            "referenceOffset": 303.34,
+            "delta": 33.34,
+            "score": 0.8938
+          }
+        ],
+        "alignedVideoOrigin": "2025-08-24T20:01:04.483000+08:00",
+        "basis": "分 P 文件名提供含秒录制时间，至少两段音频指向一致偏移；扣除偏移得到参考录播起点，与原目录分钟吻合。本地保留计算所得秒值，网页显示分钟。"
+      }
+    },
+    "MIT3URI-0242": {
+      "date": "2025-08-27",
+      "anchorBvid": "BV1Axemz6E3i",
+      "startedAt": "2025-08-27T23:30:38+08:00",
+      "precision": "second",
+      "timeEvidence": "aligned_recording_part",
+      "evidence": {
+        "recordingBvid": "BV1Xyemz4E3H",
+        "uploaderId": 3493284628401014,
+        "url": "https://www.bilibili.com/video/BV1Xyemz4E3H/?p=1",
+        "page": 1,
+        "cid": 31984583475,
+        "partTitle": "录制-1967216004-20250827-233144-867-我在被窝里啦…",
+        "partCount": 2,
+        "recordingStartedAt": "2025-08-27T23:31:44.867000+08:00",
+        "referenceBvid": "BV1Axemz6E3i",
+        "referencePage": 1,
+        "referenceCid": 31984717015,
+        "referenceUrl": "https://www.bilibili.com/video/BV1Axemz6E3i/?p=1",
+        "referencePartTitle": "P1-我在被窝里啦…-08月27日23点30分",
+        "audioMatches": [
+          {
+            "communityOffset": 120,
+            "referenceOffset": 186.0,
+            "delta": 66.0,
+            "score": 0.9336
+          },
+          {
+            "communityOffset": 210,
+            "referenceOffset": 276.0,
+            "delta": 66.0,
+            "score": 0.9926
+          },
+          {
+            "communityOffset": 300,
+            "referenceOffset": 366.0,
+            "delta": 66.0,
+            "score": 0.9607
+          }
+        ],
+        "alignedVideoOrigin": "2025-08-27T23:30:38.867000+08:00",
+        "basis": "分 P 文件名提供含秒录制时间，至少两段音频指向一致偏移；扣除偏移得到参考录播起点，与原目录分钟吻合。本地保留计算所得秒值，网页显示分钟。"
+      }
+    },
+    "MIT3URI-0244": {
+      "date": "2025-08-29",
+      "anchorBvid": "BV1aJhZzCEsk",
+      "startedAt": "2025-08-29T20:31:00+08:00",
+      "precision": "second",
+      "timeEvidence": "aligned_recording_part",
+      "evidence": {
+        "recordingBvid": "BV1eGhZzEEaP",
+        "uploaderId": 3493284628401014,
+        "url": "https://www.bilibili.com/video/BV1eGhZzEEaP/?p=1",
+        "page": 1,
+        "cid": 32033932137,
+        "partTitle": "录制-1967216004-20250829-203158-918-唱点甜甜的！",
+        "partCount": 2,
+        "recordingStartedAt": "2025-08-29T20:31:58.918000+08:00",
+        "referenceBvid": "BV1aJhZzCEsk",
+        "referencePage": 1,
+        "referenceCid": 32034458963,
+        "referenceUrl": "https://www.bilibili.com/video/BV1aJhZzCEsk/?p=1",
+        "referencePartTitle": "P1-唱点甜甜的！-08月29日20点31分",
+        "audioMatches": [
+          {
+            "communityOffset": 210,
+            "referenceOffset": 268.32,
+            "delta": 58.32,
+            "score": 0.7864
+          },
+          {
+            "communityOffset": 300,
+            "referenceOffset": 358.32,
+            "delta": 58.32,
+            "score": 0.9863
+          }
+        ],
+        "alignedVideoOrigin": "2025-08-29T20:31:00.598000+08:00",
+        "basis": "分 P 文件名提供含秒录制时间，至少两段音频指向一致偏移；扣除偏移得到参考录播起点，与原目录分钟吻合。本地保留计算所得秒值，网页显示分钟。"
+      }
+    },
+    "MIT3URI-0247": {
+      "date": "2025-09-01",
+      "anchorBvid": "BV1wTaszqEq2",
+      "startedAt": "2025-09-01T23:14:21+08:00",
+      "precision": "second",
+      "timeEvidence": "aligned_recording_part",
+      "evidence": {
+        "recordingBvid": "BV1TRaWz1EtJ",
+        "uploaderId": 3493284628401014,
+        "url": "https://www.bilibili.com/video/BV1TRaWz1EtJ/?p=1",
+        "page": 1,
+        "cid": 32099339399,
+        "partTitle": "录制-1967216004-20250901-231500-757-虚弱buff on",
+        "partCount": 1,
+        "recordingStartedAt": "2025-09-01T23:15:00.757000+08:00",
+        "referenceBvid": "BV1wTaszqEq2",
+        "referencePage": 1,
+        "referenceCid": 32097505020,
+        "referenceUrl": "https://www.bilibili.com/video/BV1wTaszqEq2/?p=1",
+        "referencePartTitle": "P1-虚弱buff on-09月01日23点14分",
+        "audioMatches": [
+          {
+            "communityOffset": 120,
+            "referenceOffset": 159.0,
+            "delta": 39.0,
+            "score": 0.741
+          },
+          {
+            "communityOffset": 210,
+            "referenceOffset": 249.0,
+            "delta": 39.0,
+            "score": 0.7762
+          },
+          {
+            "communityOffset": 300,
+            "referenceOffset": 339.0,
+            "delta": 39.0,
+            "score": 0.7054
+          }
+        ],
+        "alignedVideoOrigin": "2025-09-01T23:14:21.757000+08:00",
+        "basis": "分 P 文件名提供含秒录制时间，至少两段音频指向一致偏移；扣除偏移得到参考录播起点，与原目录分钟吻合。本地保留计算所得秒值，网页显示分钟。"
+      }
+    },
+    "MIT3URI-0249": {
+      "date": "2025-09-03",
+      "anchorBvid": "BV1TpazzXEq7",
+      "startedAt": "2025-09-03T16:31:40+08:00",
+      "precision": "second",
+      "timeEvidence": "aligned_recording_part",
+      "evidence": {
+        "recordingBvid": "BV1uEazzxETH",
+        "uploaderId": 3493284628401014,
+        "url": "https://www.bilibili.com/video/BV1uEazzxETH/?p=1",
+        "page": 1,
+        "cid": 32134924705,
+        "partTitle": "录制-1967216004-20250903-163149-250-通勤歌台！！",
+        "partCount": 2,
+        "recordingStartedAt": "2025-09-03T16:31:49.250000+08:00",
+        "referenceBvid": "BV1TpazzXEq7",
+        "referencePage": 1,
+        "referenceCid": 32135513540,
+        "referenceUrl": "https://www.bilibili.com/video/BV1TpazzXEq7/?p=1",
+        "referencePartTitle": "P1-通勤歌台！！-09月03日16点31分",
+        "audioMatches": [
+          {
+            "communityOffset": 120,
+            "referenceOffset": 128.34,
+            "delta": 8.34,
+            "score": 0.5105
+          },
+          {
+            "communityOffset": 210,
+            "referenceOffset": 218.34,
+            "delta": 8.34,
+            "score": 0.4696
+          },
+          {
+            "communityOffset": 300,
+            "referenceOffset": 308.34,
+            "delta": 8.34,
+            "score": 0.7135
+          }
+        ],
+        "alignedVideoOrigin": "2025-09-03T16:31:40.910000+08:00",
+        "basis": "分 P 文件名提供含秒录制时间，至少两段音频指向一致偏移；扣除偏移得到参考录播起点，与原目录分钟吻合。本地保留计算所得秒值，网页显示分钟。"
+      }
+    },
+    "MIT3URI-0251": {
+      "date": "2025-09-04",
+      "anchorBvid": "BV146amzVEZp",
+      "startedAt": "2025-09-04T15:02:56+08:00",
+      "precision": "second",
+      "timeEvidence": "aligned_recording_part",
+      "evidence": {
+        "recordingBvid": "BV1ofamzFE3Z",
+        "uploaderId": 3493284628401014,
+        "url": "https://www.bilibili.com/video/BV1ofamzFE3Z/?p=1",
+        "page": 1,
+        "cid": 32154586598,
+        "partTitle": "录制-1967216004-20250904-150317-565-美女主播开瓦！",
+        "partCount": 2,
+        "recordingStartedAt": "2025-09-04T15:03:17.565000+08:00",
+        "referenceBvid": "BV146amzVEZp",
+        "referencePage": 1,
+        "referenceCid": 32155372812,
+        "referenceUrl": "https://www.bilibili.com/video/BV146amzVEZp/?p=1",
+        "referencePartTitle": "P1-美女主播开瓦！-09月04日15点03分",
+        "audioMatches": [
+          {
+            "communityOffset": 120,
+            "referenceOffset": 140.84,
+            "delta": 20.84,
+            "score": 0.7164
+          },
+          {
+            "communityOffset": 210,
+            "referenceOffset": 230.84,
+            "delta": 20.84,
+            "score": 0.9431
+          },
+          {
+            "communityOffset": 300,
+            "referenceOffset": 320.84,
+            "delta": 20.84,
+            "score": 0.5115
+          }
+        ],
+        "alignedVideoOrigin": "2025-09-04T15:02:56.725000+08:00",
+        "basis": "分 P 文件名提供含秒录制时间，至少两段音频指向一致偏移；扣除偏移得到参考录播起点，与原目录分钟吻合。本地保留计算所得秒值，网页显示分钟。"
+      }
+    },
+    "MIT3URI-0252": {
+      "date": "2025-09-04",
+      "anchorBvid": "BV1xSaQzXERf",
+      "startedAt": "2025-09-04T19:59:52+08:00",
+      "precision": "second",
+      "timeEvidence": "aligned_recording_part",
+      "evidence": {
+        "recordingBvid": "BV1G8aSzZE6W",
+        "uploaderId": 3493284628401014,
+        "url": "https://www.bilibili.com/video/BV1G8aSzZE6W/?p=1",
+        "page": 1,
+        "cid": 32159565231,
+        "partTitle": "录制-1967216004-20250904-200021-501-唱一会儿再一起看钢炼fa!",
+        "partCount": 3,
+        "recordingStartedAt": "2025-09-04T20:00:21.501000+08:00",
+        "referenceBvid": "BV1xSaQzXERf",
+        "referencePage": 1,
+        "referenceCid": 32159501541,
+        "referenceUrl": "https://www.bilibili.com/video/BV1xSaQzXERf/?p=1",
+        "referencePartTitle": "P1-唱一会儿再一起看钢炼fa!-09月04日19点59分",
+        "audioMatches": [
+          {
+            "communityOffset": 120,
+            "referenceOffset": 149.16,
+            "delta": 29.16,
+            "score": 0.9332
+          },
+          {
+            "communityOffset": 210,
+            "referenceOffset": 239.16,
+            "delta": 29.16,
+            "score": 0.6708
+          }
+        ],
+        "alignedVideoOrigin": "2025-09-04T19:59:52.341000+08:00",
+        "basis": "分 P 文件名提供含秒录制时间，至少两段音频指向一致偏移；扣除偏移得到参考录播起点，与原目录分钟吻合。本地保留计算所得秒值，网页显示分钟。"
+      }
+    },
+    "MIT3URI-0263": {
+      "date": "2025-09-11",
+      "anchorBvid": "BV1MMHYzkEg8",
+      "startedAt": "2025-09-11T17:26:34+08:00",
+      "precision": "second",
+      "timeEvidence": "aligned_recording_part",
+      "evidence": {
+        "recordingBvid": "BV1k7HYziEHG",
+        "uploaderId": 3493284628401014,
+        "url": "https://www.bilibili.com/video/BV1k7HYziEHG/?p=1",
+        "page": 1,
+        "cid": 32313902154,
+        "partTitle": "录制-1967216004-20250911-172826-853-空洞骑士初见！",
+        "partCount": 1,
+        "recordingStartedAt": "2025-09-11T17:28:26.853000+08:00",
+        "referenceBvid": "BV1MMHYzkEg8",
+        "referencePage": 1,
+        "referenceCid": 32313902018,
+        "referenceUrl": "https://www.bilibili.com/video/BV1MMHYzkEg8/?p=1",
+        "referencePartTitle": "P1-空洞骑士初见！-09月11日17点26分",
+        "audioMatches": [
+          {
+            "communityOffset": 120,
+            "referenceOffset": 232.5,
+            "delta": 112.5,
+            "score": 0.9548
+          },
+          {
+            "communityOffset": 210,
+            "referenceOffset": 322.5,
+            "delta": 112.5,
+            "score": 0.9828
+          },
+          {
+            "communityOffset": 300,
+            "referenceOffset": 412.5,
+            "delta": 112.5,
+            "score": 0.9373
+          }
+        ],
+        "alignedVideoOrigin": "2025-09-11T17:26:34.353000+08:00",
+        "basis": "分 P 文件名提供含秒录制时间，至少两段音频指向一致偏移；扣除偏移得到参考录播起点，与原目录分钟吻合。本地保留计算所得秒值，网页显示分钟。"
+      }
+    },
+    "MIT3URI-0275": {
+      "date": "2025-09-20",
+      "anchorBvid": "BV1b4W5zeELK",
+      "startedAt": "2025-09-20T00:15:23+08:00",
+      "precision": "second",
+      "timeEvidence": "aligned_recording_part",
+      "evidence": {
+        "recordingBvid": "BV1nCW5zXEym",
+        "uploaderId": 3493284628401014,
+        "url": "https://www.bilibili.com/video/BV1nCW5zXEym/?p=1",
+        "page": 1,
+        "cid": 32497141323,
+        "partTitle": "录制-1967216004-20250920-001626-469-来瓦！",
+        "partCount": 3,
+        "recordingStartedAt": "2025-09-20T00:16:26.469000+08:00",
+        "referenceBvid": "BV1b4W5zeELK",
+        "referencePage": 1,
+        "referenceCid": 32497469475,
+        "referenceUrl": "https://www.bilibili.com/video/BV1b4W5zeELK/?p=1",
+        "referencePartTitle": "0-来瓦！",
+        "audioMatches": [
+          {
+            "communityOffset": 180,
+            "referenceOffset": 242.48,
+            "delta": 62.48,
+            "score": 0.8229
+          },
+          {
+            "communityOffset": 270,
+            "referenceOffset": 332.48,
+            "delta": 62.48,
+            "score": 0.9312
+          }
+        ],
+        "alignedVideoOrigin": "2025-09-20T00:15:23.989000+08:00",
+        "basis": "分 P 文件名提供含秒录制时间，至少两段音频指向一致偏移；扣除偏移得到参考录播起点，与原目录分钟吻合。本地保留计算所得秒值，网页显示分钟。"
+      }
+    }
+  },
+  "merges": [
+    {
+      "fromSession": "MIT3URI-0125",
+      "toSession": "MIT3URI-0124",
+      "date": "2025-05-23",
+      "bvid": "BV1sDjnzoEJj",
+      "targetAnchorBvid": "BV1oWjnzLEkt",
+      "reason": "17点投稿是14点场尾段；文件名17:15:18，三处60秒音频分别对应官方第一 P 的8876.28、8966.28、9060.46秒，属于同一场。",
+      "audioMatches": [
+        {
+          "communityOffset": 30,
+          "officialOffset": 8876.28,
+          "delta": 8846.28,
+          "score": 0.9943
+        },
+        {
+          "communityOffset": 120,
+          "officialOffset": 8966.28,
+          "delta": 8846.28,
+          "score": 0.9375
+        },
+        {
+          "communityOffset": 210,
+          "officialOffset": 9060.46,
+          "delta": 8850.46,
+          "score": 0.9738
+        }
+      ]
+    }
+  ],
+  "splits": [
+    {
+      "fromSession": "MIT3URI-0347",
+      "date": "2025-11-15",
+      "bvid": "BV1kYCVBJEBn",
+      "aliasTo": "MIT3URI-0345",
+      "reason": "投稿按11月15日下播日期命名，实际包含11月14日的两场直播。P1片尾时钟对应午后场结束，P2为晚场等待画面；P3与P4时间有交叠，覆盖长度按时钟区间并集计算。",
+      "parts": [
+        {
+          "sessionId": "MIT3URI-0344",
+          "date": "2025-11-14",
+          "targetAnchorBvid": "BV1EjCyBaEYX",
+          "pages": [
+            1
+          ],
+          "coverageSeconds": 7830,
+          "clocks": [
+            {
+              "page": 1,
+              "offsetSeconds": 660,
+              "clock": "18:13:34"
+            },
+            {
+              "page": 1,
+              "offsetSeconds": 780,
+              "clock": "18:15:34"
+            }
+          ],
+          "audioMatches": [
+            {
+              "communityOffset": 30,
+              "officialOffset": 1367.48,
+              "delta": 1337.48,
+              "score": 0.7038
+            },
+            {
+              "communityOffset": 120,
+              "officialOffset": 1457.48,
+              "delta": 1337.48,
+              "score": 0.945
+            },
+            {
+              "communityOffset": 210,
+              "officialOffset": 1547.48,
+              "delta": 1337.48,
+              "score": 0.9635
+            }
+          ]
+        },
+        {
+          "sessionId": "MIT3URI-0345",
+          "date": "2025-11-14",
+          "targetAnchorBvid": "BV1ELCyBPEmL",
+          "pages": [
+            2,
+            3,
+            4
+          ],
+          "coverageSeconds": 21416,
+          "clocks": [
+            {
+              "page": 2,
+              "offsetSeconds": 660,
+              "clock": "21:44:34"
+            },
+            {
+              "page": 3,
+              "offsetSeconds": 65,
+              "clock": "23:28:30"
+            },
+            {
+              "page": 3,
+              "offsetSeconds": 660,
+              "clock": "23:38:25"
+            },
+            {
+              "page": 4,
+              "offsetSeconds": 65,
+              "clock": "02:29:54"
+            },
+            {
+              "page": 4,
+              "offsetSeconds": 660,
+              "clock": "02:39:49"
+            }
+          ],
+          "audioMatches": [
+            {
+              "communityOffset": 30,
+              "officialOffset": 19.14,
+              "delta": -10.86,
+              "score": 0.562
+            },
+            {
+              "communityOffset": 120,
+              "officialOffset": 257.5,
+              "delta": 137.5,
+              "score": 0.5833
+            },
+            {
+              "communityOffset": 210,
+              "officialOffset": 347.5,
+              "delta": 137.5,
+              "score": 0.85
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "excludedSessions": [
+    {
+      "sessionId": "MIT3URI-0194",
+      "date": "2025-07-12",
+      "roomId": 21324995,
+      "bvids": [
+        "BV14eMQz8Ec3",
+        "BV1pyM9zhECC"
+      ],
+      "parts": [
+        {
+          "bvid": "BV14eMQz8Ec3",
+          "firstPart": "录制-21324995-20250712-151433-644-理电池ktv-后处理"
+        },
+        {
+          "bvid": "BV1pyM9zhECC",
+          "firstPart": "录制-21324995-20250712-174907-357-理电池ktv 2.0-后处理"
+        }
+      ],
+      "reason": "原始分 P 文件名标明其他直播间；不属于三理本人直播间的收录范围。"
+    },
+    {
+      "sessionId": "MIT3URI-0196",
+      "date": "2025-07-13",
+      "roomId": 21470454,
+      "bvids": [
+        "BV1heMZz9Ez8"
+      ],
+      "parts": [
+        {
+          "bvid": "BV1heMZz9Ez8",
+          "firstPart": "录制-21470454-20250713-112528-148-BW互动节目-你的墙，来了！-后处理"
+        }
+      ],
+      "reason": "原始分 P 文件名标明其他直播间；不属于三理本人直播间的收录范围。"
+    },
+    {
+      "sessionId": "MIT3URI-0197",
+      "date": "2025-07-13",
+      "roomId": 21470454,
+      "bvids": [
+        "BV1rfuFzLEoY"
+      ],
+      "parts": [
+        {
+          "bvid": "BV1rfuFzLEoY",
+          "firstPart": "录制-21470454-20250713-132229-468-BW互动节目-社内主播理解度QUIZ-后处理"
+        }
+      ],
+      "reason": "原始分 P 文件名标明其他直播间；不属于三理本人直播间的收录范围。"
+    },
+    {
+      "sessionId": "MIT3URI-0220",
+      "date": "2025-08-03",
+      "roomId": 5424,
+      "bvids": [
+        "BV1byhVzUE63"
+      ],
+      "parts": [
+        {
+          "bvid": "BV1byhVzUE63",
+          "firstPart": "录制-5424-20250803-190043-950-哔须来玩儿！官推的VUP之绝对音准回"
+        }
+      ],
+      "reason": "原始分 P 文件名标明其他直播间；不属于三理本人直播间的收录范围。"
+    },
+    {
+      "sessionId": "MIT3URI-0221",
+      "date": "2025-08-03",
+      "roomId": 5424,
+      "bvids": [
+        "BV1nshLzgE3B"
+      ],
+      "parts": [
+        {
+          "bvid": "BV1nshLzgE3B",
+          "firstPart": "录制-5424-20250803-234852-752-向前跑，"
+        }
+      ],
+      "reason": "原始分 P 文件名标明其他直播间；不属于三理本人直播间的收录范围。"
+    }
+  ],
+  "unresolved": [],
+  "recordingClockChecks": [
+    {
+      "sessionId": "MIT3URI-0060",
+      "titleTimestamp": "【三理Mit3uri】首次学歌回 2025年04月08日 19点33分21秒",
+      "audioMatches": [
+        {
+          "communityOffset": 30,
+          "officialOffset": 22.64,
+          "delta": -7.36,
+          "score": 0.8408
+        },
+        {
+          "communityOffset": 120,
+          "officialOffset": 261.68,
+          "delta": 141.68,
+          "score": 0.9592
+        },
+        {
+          "communityOffset": 210,
+          "officialOffset": 351.68,
+          "delta": 141.68,
+          "score": 0.8934
+        }
+      ],
+      "officialVideoOrigin": "19:30:56"
+    },
+    {
+      "sessionId": "MIT3URI-0077",
+      "titleTimestamp": "【三理Mit3uri】深夜故事会 2025年04月20日 20点02分37秒",
+      "audioMatches": [
+        {
+          "communityOffset": 30,
+          "officialOffset": 37.14,
+          "delta": 7.14,
+          "score": 0.7973
+        },
+        {
+          "communityOffset": 120,
+          "officialOffset": 127.14,
+          "delta": 7.14,
+          "score": 0.9133
+        },
+        {
+          "communityOffset": 210,
+          "officialOffset": 217.14,
+          "delta": 7.14,
+          "score": 0.9428
+        }
+      ],
+      "officialVideoOrigin": "20:02:30"
+    },
+    {
+      "sessionId": "MIT3URI-0129",
+      "titleTimestamp": "【三理Mit3uri】歌含量极高的歌回溶液 2025年05月25日 19点59分38秒",
+      "audioMatches": [
+        {
+          "communityOffset": 30,
+          "officialOffset": 119.48,
+          "delta": 89.48,
+          "score": 0.9541
+        },
+        {
+          "communityOffset": 120,
+          "officialOffset": 209.48,
+          "delta": 89.48,
+          "score": 0.971
+        },
+        {
+          "communityOffset": 210,
+          "officialOffset": 299.48,
+          "delta": 89.48,
+          "score": 0.9776
+        }
+      ],
+      "officialVideoOrigin": "19:58:24"
+    },
+    {
+      "sessionId": "MIT3URI-0135",
+      "titleTimestamp": "【三理Mit3uri】接你下班噢 2025年05月29日 18点01分13秒",
+      "audioMatches": [
+        {
+          "communityOffset": 30,
+          "officialOffset": 119.18,
+          "delta": 89.18,
+          "score": 0.9124
+        },
+        {
+          "communityOffset": 120,
+          "officialOffset": 357.5,
+          "delta": 237.5,
+          "score": 0.7557
+        },
+        {
+          "communityOffset": 210,
+          "officialOffset": 447.5,
+          "delta": 237.5,
+          "score": 0.9119
+        }
+      ],
+      "officialVideoOrigin": "17:57:21"
+    }
+  ]
+}

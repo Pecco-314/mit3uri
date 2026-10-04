@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f5fb">
+  <meta name="description" content="三理Mit3uri录播，按年月查找直播场次与回放链接。">
+  <title>三理Mit3uri · 录播</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="stylesheet" href="./styles.css?v=06884db983">
+</head>
+<body>
+  <a class="skip-link" href="#archive">跳到录播列表</a>
+  <header class="site-header">
+    <a class="brand" href="#"><img src="./favicon.svg" alt="" width="34" height="34"><span>三理Mit3uri</span><span class="brand-divider">/</span><span class="brand-section">录播</span></a>
+    <a class="profile-link" href="https://space.bilibili.com/2030198123" target="_blank" rel="noopener noreferrer">B 站主页 ↗</a>
+  </header>
+  <main class="archive-layout">
+    <aside class="archive-sidebar">
+      <nav aria-label="按年月浏览">
+        <h2 class="nav-heading">日期</h2>
+        <div id="date-navigation"></div>
+      </nav>
+    </aside>
+    <section class="archive-content" id="archive" aria-labelledby="archive-title">
+      <div class="archive-heading">
+        <div class="heading-title"><h1 id="archive-title">全部录播</h1><span id="result-count" aria-live="polite"></span></div>
+        <label class="search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></svg>
+          <input id="search" type="search" placeholder="搜索标题、日期…" aria-label="搜索标题、日期或 BV 号">
+          <kbd>/</kbd>
+        </label>
+      </div>
+      <div class="list-toolbar">
+        <span id="selection-label">全部日期</span>
+        <label class="sort-label"><span class="sr-only">排序方式</span><select id="sort"><option value="oldest">最早在前</option><option value="newest">最新在前</option></select></label>
+      </div>
+      <div class="list-columns" aria-hidden="true"><span>日期</span><span>直播标题</span><span>开播时间</span><span>时长</span><span></span></div>
+      <div id="recordings"><p class="empty-state" role="status">加载中…</p></div>
+      <div class="pagination">
+        <span id="page-info" aria-live="polite"></span>
+        <nav aria-label="列表翻页"><button id="previous" aria-label="上一页" disabled>←</button><span id="page-number"></span><button id="next" aria-label="下一页" disabled>→</button></nav>
+      </div>
+    </section>
+  </main>
+  <footer><span>时间均为北京时间</span><span>非官方粉丝录播索引</span></footer>
+  <dialog id="detail-dialog" aria-labelledby="detail-title">
+    <div id="detail-content"></div>
+    <button class="dialog-close" aria-label="关闭详情" data-close>×</button>
+  </dialog>
+  <noscript><p class="empty-state">请启用 JavaScript 查看录播列表。</p></noscript>
+  <script type="module" src="./app.js?v=bc3c9760da"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "mit3uri-replay",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "三理Mit3uri的纯静态录播档案",
+  "scripts": {
+    "dev": "python3 -m http.server 4173 --bind 127.0.0.1 --directory site",
+    "build": "python3 scripts/session_notes.py && python3 scripts/asr/export_transcripts.py && node scripts/build.mjs",
+    "transcripts": "python3 scripts/asr/export_transcripts.py",
+    "test": "python3 -m unittest discover -s tests -v && node --check site/app.js && node --check site/transcript.js",
+    "sync": "python3 scripts/sync.py"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

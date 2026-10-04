@@ -1,0 +1,12 @@
+.cache/
+__pycache__/
+*.pyc
+.DS_Store
+node_modules/
+dist/
+.venv-asr/
+outputs/
+.env
+.env.*
+!.env.example
+*.log
