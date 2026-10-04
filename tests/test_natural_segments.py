@@ -1,12 +1,29 @@
 import sys
 import unittest
 from pathlib import Path
+from unittest.mock import Mock
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts/asr'))
 from natural_segments import merge_reviewed_regions, plan_regions, sentence_spans
+from audio_utils import speech_timestamps
 
 
 class NaturalSegmentsTests(unittest.TestCase):
+    def test_long_audio_offsets_and_joins_continuous_speech(self):
+        vad = Mock()
+        vad.get_speech_timestamps.side_effect = [
+            [{'start': 1, 'end': 5}],
+            [{'start': 0, 'end': 2}, {'start': 3, 'end': 5}],
+            [{'start': 1, 'end': 2}],
+        ]
+        cleanup = Mock()
+        result = speech_timestamps(vad, list(range(120)), sample_rate=10,
+                                   batch_seconds=5, clear_cache=cleanup)
+        self.assertEqual(result, [{'start': 1, 'end': 7}, {'start': 8, 'end': 10},
+                                  {'start': 11, 'end': 12}])
+        self.assertEqual([len(c.args[0]) for c in vad.get_speech_timestamps.call_args_list], [50, 50, 20])
+        self.assertEqual(cleanup.call_count, 3)
+
     def test_pause_plan_preserves_all_audio_without_overlap(self):
         speech = [{'start': 4, 'end': 23}, {'start': 25, 'end': 44}, {'start': 47, 'end': 99}]
         songs = [{'id': 'song', 'start': 50, 'end': 80, 'language': 'Japanese'}]

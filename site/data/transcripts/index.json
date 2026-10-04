@@ -3,7 +3,11 @@
   "sessions": {
     "MIT3URI-0001": {
       "status": "draft",
-      "topicCount": 16
+      "topicCount": 13
+    },
+    "MIT3URI-0002": {
+      "status": "draft",
+      "topicCount": 36
     }
   }
 }

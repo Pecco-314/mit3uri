@@ -27,6 +27,26 @@ class TranscriptTests(unittest.TestCase):
         self.assertEqual(result['topics'][1]['start'], 12.5)
         self.assertEqual(result['topics'][1]['segments'][0]['text'], '我是三理。')
 
+    def test_multiple_pages_reset_time_and_preserve_page(self):
+        source = {'bvid': 'BV1eiXRYHEsi', 'page': 1, 'durationSeconds': 100,
+                  'pages': [{'page': 1, 'durationSeconds': 100}, {'page': 2, 'durationSeconds': 50}]}
+        result = self.document('## 前半场\n[00:20 --> 00:30] 一\n<!-- page: 2 -->\n## 后半场\n[00:00 --> 00:10] 二', source=source)
+        self.assertEqual([t['page'] for t in result['topics']], [1, 2])
+        self.assertEqual(result['topics'][1]['start'], 0)
+        self.assertEqual(result['topics'][1]['offset'], 100)
+        with self.assertRaises(ValueError):
+            self.document('## 前半场\n[00:20 --> 00:30] 一\n<!-- page: 2 -->\n## 后半场\n[00:00 --> 01:10] 二', source=source)
+
+    def test_one_topic_can_span_video_pages(self):
+        source = {'bvid': 'BV1eiXRYHEsi', 'page': 1, 'durationSeconds': 100,
+                  'pages': [{'page': 1, 'durationSeconds': 100}, {'page': 2, 'durationSeconds': 50}]}
+        result = self.document('## 点歌\n[01:20 --> 01:40] 前半句\n<!-- page: 2 -->\n[00:00 --> 00:10] 后半句', source=source)
+        self.assertEqual(len(result['topics']), 1)
+        topic = result['topics'][0]
+        self.assertEqual(topic['start'], 80)
+        self.assertEqual(topic['end'], 110)
+        self.assertEqual([(s['page'], s['start'], s['offset']) for s in topic['segments']], [(1, 80, 0), (2, 0, 100)])
+
     def test_export_excludes_internal_metadata(self):
         result = self.document(
             '## 问好\n[00:00 --> 00:10] 大家好！',

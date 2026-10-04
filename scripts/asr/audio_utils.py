@@ -37,3 +37,24 @@ def stamp(seconds):
     milliseconds = round(seconds * 1000)
     minutes, remainder = divmod(milliseconds, 60000)
     return f"{minutes:02}:{remainder//1000:02}.{remainder%1000:03}"
+
+
+def speech_timestamps(vad, audio, *, sample_rate=16000, batch_seconds=300,
+                      clear_cache=lambda: None, **options):
+    """Bound VAD inference memory while retaining one continuous audio timeline."""
+    size = int(sample_rate * batch_seconds)
+    if size <= 0:
+        raise ValueError('VAD batch length must be positive')
+    speech = []
+    for start in range(0, len(audio), size):
+        rows = vad.get_speech_timestamps(audio[start:start + size], sample_rate=sample_rate,
+                                        return_seconds=True, **options)
+        offset = start / sample_rate
+        for row in rows:
+            interval = {'start': offset + row['start'], 'end': offset + row['end']}
+            if speech and interval['start'] <= speech[-1]['end'] + 0.05:
+                speech[-1]['end'] = max(speech[-1]['end'], interval['end'])
+            else:
+                speech.append(interval)
+        clear_cache()
+    return speech

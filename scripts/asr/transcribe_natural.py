@@ -9,7 +9,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from natural_segments import merge_reviewed_regions, plan_regions, sentence_spans
-from audio_utils import ROOT, decode, review_flags, stamp
+from audio_utils import ROOT, decode, review_flags, stamp, speech_timestamps
 
 
 def save(path, value):
@@ -77,7 +77,7 @@ def main():
     if 'plan' not in state:
         before = time.perf_counter()
         vad = load_vad(settings['vadModel'])
-        speech = vad.get_speech_timestamps(audio, sample_rate=16000, return_seconds=True, **settings['vad'])
+        speech = speech_timestamps(vad, audio, clear_cache=mx.clear_cache, **settings['vad'])
         state['vad'] = speech
         state['vadSeconds'] = time.perf_counter() - before
         state['plan'] = plan_regions(len(audio)/16000, speech, config['songs'],

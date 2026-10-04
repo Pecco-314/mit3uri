@@ -34,30 +34,59 @@ def parse_transcript(text, catalog):
         raise ValueError("Invalid recording duration")
     if document.get("timing") not in {"chunk", "aligned", "reviewed"}:
         raise ValueError("Invalid timing provenance")
+    pages = source.get("pages", [{"page": source["page"], "durationSeconds": length}])
+    if not isinstance(pages, list) or not pages or any(
+        not isinstance(p, dict) or type(p.get("page")) is not int or p["page"] < 1
+        or not isinstance(p.get("durationSeconds"), (int, float))
+        or not math.isfinite(p["durationSeconds"]) or p["durationSeconds"] <= 0
+        for p in pages
+    ) or len({p["page"] for p in pages}) != len(pages):
+        raise ValueError("Invalid video pages")
+    page_lengths = {p["page"]: p["durationSeconds"] for p in pages}
+    page_offsets = {page: sum(duration for earlier, duration in page_lengths.items() if earlier < page) for page in page_lengths}
+    current_page = source["page"]
+    if current_page not in page_lengths:
+        raise ValueError("Missing initial video page")
     topics = []
     previous_end = 0
     for number, line in enumerate(lines[1:], 2):
         if not line.strip() or line.startswith("# "):
+            continue
+        if line.startswith("<!-- page: ") and line.endswith(" -->"):
+            page = int(line[len("<!-- page: "):-len(" -->")])
+            if page not in page_lengths or page <= current_page:
+                raise ValueError("Invalid page transition")
+            current_page = page
+            previous_end = 0
             continue
         if line.startswith("## "):
             title = line[3:].strip()
             if not title:
                 raise ValueError(f"Empty topic at line {number}")
             topics.append({"id": f"topic-{len(topics)+1:03}", "title": title, "segments": []})
+            if len(pages) > 1:
+                topics[-1]["page"] = current_page
+                topics[-1]["offset"] = page_offsets[current_page]
             continue
         match = LINE.fullmatch(line)
         if not match or not topics:
             raise ValueError(f"Expected a topic or timed paragraph at line {number}")
         start, end = seconds(match[1]), seconds(match[2])
-        if start < previous_end - 0.001 or end <= start or end > length + 1:
+        if start < previous_end - 0.001 or end <= start or end > page_lengths[current_page] + 1:
             raise ValueError(f"Overlapping, reversed or out-of-range timestamp at line {number}")
-        topics[-1]["segments"].append({"start": start, "end": end, "text": match[3]})
+        segment = {"start": start, "end": end, "text": match[3].replace("\\n", "\n")}
+        if len(pages) > 1:
+            segment.update(page=current_page, offset=page_offsets[current_page])
+        topics[-1]["segments"].append(segment)
         previous_end = end
     if not topics or any(not topic["segments"] for topic in topics):
         raise ValueError("Every topic must contain at least one timed paragraph")
     for topic in topics:
+        if len(pages) > 1:
+            topic["page"] = topic["segments"][0]["page"]
+            topic["offset"] = topic["segments"][0]["offset"]
         topic["start"] = topic["segments"][0]["start"]
-        topic["end"] = topic["segments"][-1]["end"]
+        topic["end"] = topic["segments"][-1]["end"] + topic["segments"][-1].get("offset", 0) - topic.get("offset", 0)
     return {
         "schemaVersion": document["schemaVersion"],
         "sessionId": document["sessionId"],
