@@ -1732,5 +1732,68 @@
       ],
       "officialVideoOrigin": "17:57:21"
     }
+  ],
+  "containedSessions": [
+    {
+      "fromSession": "MIT3URI-0253",
+      "toSession": "MIT3URI-0252",
+      "date": "2025-09-04",
+      "targetAnchorBvid": "BV1xSaQzXERf",
+      "recordingStart": "2025-09-04T19:59:52+08:00",
+      "observations": [
+        {
+          "key": "MIT3URI-0253:danmakus:dd49ac94-cf2f-948b-923a-ee9c64c43199",
+          "start": "2025-09-04T21:25:19+08:00",
+          "end": "2025-09-05T00:56:46+08:00"
+        }
+      ],
+      "evidence": {
+        "recordings": [
+          {
+            "bvid": "BV1xSaQzXERf",
+            "durationSeconds": 17823,
+            "pages": [
+              {
+                "page": 1,
+                "part": "P1-唱一会儿再一起看钢炼fa!-09月04日19点59分",
+                "duration": 4467
+              },
+              {
+                "page": 2,
+                "part": "P2-一起看看钢炼fa!-09月04日21点14分",
+                "duration": 8921
+              },
+              {
+                "page": 3,
+                "part": "P3-夜夜夜夜!-09月04日23点43分",
+                "duration": 4435
+              }
+            ]
+          },
+          {
+            "bvid": "BV1G8aSzZE6W",
+            "durationSeconds": 17796,
+            "pages": [
+              {
+                "page": 1,
+                "part": "录制-1967216004-20250904-200021-501-唱一会儿再一起看钢炼fa!",
+                "duration": 4501
+              },
+              {
+                "page": 2,
+                "part": "录制-1967216004-20250904-211521-570-一起看看钢炼fa!",
+                "duration": 9001
+              },
+              {
+                "page": 3,
+                "part": "录制-1967216004-20250904-234521-506-夜夜夜夜!",
+                "duration": 4294
+              }
+            ]
+          }
+        ],
+        "reason": "两份录播均从19:59/20:00连续录制；第二P已于21:14/21:15进入“一起看看钢炼fa!”。弹幕站21:25:19才开始的观察完全位于该录播内，结束时间与长录播末尾相差9秒；该观察不是独立开播，其起点与时长不用于整场时间。"
+      }
+    }
   ]
 }

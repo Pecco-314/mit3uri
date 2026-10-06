@@ -42,6 +42,31 @@ class CatalogAuditTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'remaining recordings'):
             apply_audits(self.raw, self.audit)
 
+    def test_contained_observation_keeps_provenance_without_replacing_full_start(self):
+        raw = copy.deepcopy(self.raw)
+        raw['recordings'] = [{'session_id': 'target', 'bvid': 'official', 'duration_seconds': 3600}]
+        observation = {'session_id': 'old', 'evidence_key': 'partial', 'excluded_short': 0,
+                       'start_time': '2025-01-01T20:20:00+08:00',
+                       'end_time': '2025-01-01T20:59:50+08:00'}
+        raw['evidence'] = [observation]
+        audit = {'containedSessions': [{'fromSession': 'old', 'toSession': 'target',
+                 'date': '2025-01-01', 'targetAnchorBvid': 'official',
+                 'recordingStart': '2025-01-01T20:00:00+08:00',
+                 'observations': [{'key': 'partial', 'start': observation['start_time'],
+                                   'end': observation['end_time']}]}]}
+        result = apply_audits(raw, audit)
+        self.assertEqual(result['containedSessionEvidence'], [observation])
+        self.assertEqual(raw['evidence'], [observation])
+        self.assertEqual(result['evidence'], [])
+        self.assertEqual(result['sessionAliases'], {'old': 'target'})
+        raw['recordings'][0]['duration_seconds'] = 600
+        with self.assertRaisesRegex(ValueError, 'outside'):
+            apply_audits(raw, audit)
+        raw['recordings'][0]['duration_seconds'] = 3600
+        raw['evidence'].append(dict(observation, evidence_key='new'))
+        with self.assertRaisesRegex(ValueError, 'evidence changed'):
+            apply_audits(raw, audit)
+
     def test_clock_conflict_is_rejected(self):
         item = {'date': '2025-01-01', 'anchorBvid': 'official', 'startedAt': '2025-01-01T20:00:00+08:00',
                 'precision': 'minute', 'timeEvidence': 'verified_replay_clock',

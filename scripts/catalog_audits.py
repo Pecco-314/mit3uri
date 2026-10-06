@@ -71,6 +71,31 @@ def apply_audits(raw, audits=None):
         retire(old)
         aliases[old] = item['aliasTo']
 
+    # A collector may begin observing partway through a broadcast already covered by a replay.
+    for item in audits.get('containedSessions', []):
+        old, target = item['fromSession'], item['toSession']
+        if old not in sessions:
+            continue
+        if sessions[old]['live_date'] != item['date']:
+            raise ValueError('Contained session date changed: ' + old)
+        recording = check(target, item['date'], item['targetAnchorBvid'])
+        if any(r['session_id'] == old for r in result['recordings']):
+            raise ValueError('Contained session has new recordings: ' + old)
+        evidence = [e for e in result['evidence'] if e['session_id'] == old]
+        actual = {e['evidence_key']: (e['start_time'], e['end_time']) for e in evidence}
+        expected = {e['key']: (e['start'], e['end']) for e in item['observations']}
+        if not actual or actual != expected:
+            raise ValueError('Contained session evidence changed: ' + old)
+        start = datetime.fromisoformat(item['recordingStart'])
+        end = start + timedelta(seconds=recording['duration_seconds'])
+        if any(not (start < datetime.fromisoformat(e['start_time'])
+                    < datetime.fromisoformat(e['end_time']) <= end) for e in evidence):
+            raise ValueError('Observation lies outside covering recording: ' + old)
+        result.setdefault('containedSessionEvidence', []).extend(copy.deepcopy(evidence))
+        result['evidence'] = [e for e in result['evidence'] if e['session_id'] != old]
+        retire(old)
+        aliases[old] = target
+
     starts = {}
     for sid, item in audits.get('starts', {}).items():
         if sid not in sessions:

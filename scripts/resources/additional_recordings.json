@@ -2965,6 +2965,29 @@
         4,
         5
       ]
+    },
+    {
+      "bvid": "BV1z1udzaEbb",
+      "sessionId": "MIT3URI-0204",
+      "title": "三理Mit3uri 先歌杂！再来大学习！_2025-07-19 17_00_43",
+      "durationSeconds": 14526,
+      "pages": [
+        {
+          "page": 1,
+          "part": "三理Mit3uri 先歌杂！再来大学习！_2025-07-19 17_00_43",
+          "duration": 14526
+        }
+      ],
+      "recordingPages": [
+        1
+      ],
+      "source": {
+        "mid": 1702090167,
+        "name": "青李柠檬青橘碳酸水",
+        "priority": 4,
+        "url": "https://space.bilibili.com/1702090167/lists/4733079?type=series"
+      },
+      "evidence": "录播组提供；标题及分P标明2025-07-19 17:00:43，与独立开播17:00:41相差2秒，14526秒录播覆盖该场14561秒直播。"
     }
   ]
 }

@@ -34,6 +34,17 @@ class AdditionalRecordingsTest(unittest.TestCase):
         self.assertIsNone(session['startedAt'])
         self.assertEqual(self.raw['recordings'], [])
 
+    def test_reviewed_recording_from_another_uploader_keeps_its_identity(self):
+        entry = self.config['recordings'][0]
+        entry['source'] = {'mid': 1702090167, 'name': '青李柠檬青橘碳酸水',
+                           'priority': 4, 'url': 'https://space.bilibili.com/1702090167'}
+        raw, _ = merge_additional_recordings(self.raw, self.config)
+        self.assertEqual(raw['recordings'][0]['source_mid'], 1702090167)
+        self.assertEqual(raw['recordings'][0]['source_priority'], 4)
+        with self.assertRaisesRegex(ValueError, 'owner'):
+            merge_additional_recordings(self.raw, self.config,
+                                       {'BV1234567890': dict(entry, ownerId=999)})
+
     def test_refresh_is_idempotent_and_cannot_create_a_session(self):
         raw, _ = merge_additional_recordings(self.raw, self.config)
         again, added = merge_additional_recordings(raw, self.config)

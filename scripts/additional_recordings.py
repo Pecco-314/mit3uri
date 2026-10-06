@@ -50,9 +50,11 @@ def refresh_metadata(config):
     collection = fetch_collection(config)
     result = {}
     ids = set(collection['bvids']) | {r['bvid'] for r in config['recordings']}
+    reviewed = {entry['bvid']: entry for entry in config['recordings']}
     for bvid in sorted(ids):
+        source = reviewed.get(bvid, {}).get('source', config['source'])
         data = request_data('https://api.bilibili.com/x/web-interface/view?bvid=' + bvid)
-        if data.get('bvid') != bvid or data.get('owner', {}).get('mid') != config['source']['mid']:
+        if data.get('bvid') != bvid or data.get('owner', {}).get('mid') != source['mid']:
             raise ValueError('Cannot verify additional recording: ' + bvid)
         result[bvid] = {'title': data['title'], 'durationSeconds': data['duration'],
                        'ownerId': data['owner']['mid'],
@@ -118,6 +120,7 @@ def merge_additional_recordings(raw, config, metadata=None):
     known = {r['bvid']: r for r in raw['recordings']}
     added = []
     for entry in entries:
+        source = entry.get('source', config['source'])
         bvid, target = entry['bvid'], entry['sessionId']
         if bvid in config.get('excludedVideos', {}):
             raise ValueError('External recording cannot be imported: ' + bvid)
